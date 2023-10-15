@@ -1,26 +1,21 @@
+
 package ifsc;
 
 public class Smartphone extends Produto {
-
 	
-	private String dimensoens;
-	private String icones;
+	private String dimensoesTela;
+	private String marca;
 	
-	
-	
-	
-	public String getDimensoens() {
-		return dimensoens;
+	public String getDimensoesTela() {
+		return dimensoesTela;
 	}
-	public void setDimensoens(String dimensoens) {
-		this.dimensoens = dimensoens;
+	public void setDimensoesTela(String dimensoesTela) {
+		this.dimensoesTela = dimensoesTela;
 	}
-	public String getIcones() {
-		return icones;
+	public String getMarca() {
+		return marca;
 	}
-	public void setIcones(String icones) {
-		this.icones = icones;
+	public void setMarca(String marca) {
+		this.marca = marca;
 	}
-	
-	
 }

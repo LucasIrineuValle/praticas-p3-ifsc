@@ -2,21 +2,17 @@ package ifsc;
 
 import java.util.ArrayList;
 
-public class Desktop extends Produto{
-
-	private boolean Gamer;
+public class Desktop extends Produto {
+	
+	private Boolean gamer;
 	private ArrayList<String> pecas;
 	
 	
-	
-	
-	
-	
-	public boolean isGamer() {
-		return Gamer;
+	public Boolean getGamer() {
+		return gamer;
 	}
-	public void setGamer(boolean gamer) {
-		Gamer = gamer;
+	public void setGamer(Boolean gamer) {
+		this.gamer = gamer;
 	}
 	public ArrayList<String> getPecas() {
 		return pecas;
@@ -24,6 +20,4 @@ public class Desktop extends Produto{
 	public void setPecas(ArrayList<String> pecas) {
 		this.pecas = pecas;
 	}
-	
-	
 }

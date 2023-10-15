@@ -1,21 +1,21 @@
 package ifsc;
 
-public class Produto {
-
-	private String Fabricante;
-	private long codBarras;
+public abstract class Produto {
+	
+	private String fabricante;
+	private Long codBarra;
+	
 	public String getFabricante() {
-		return Fabricante;
+		return fabricante;
 	}
 	public void setFabricante(String fabricante) {
-		Fabricante = fabricante;
+		this.fabricante = fabricante;
 	}
-	public long getCodBarras() {
-		return codBarras;
+	public Long getCodBarra() {
+		return codBarra;
 	}
-	public void setCodBarras(long codBarras) {
-		this.codBarras = codBarras;
+	public void setCodBarra(Long codBarra) {
+		this.codBarra = codBarra;
 	}
-	
-	
+
 }
